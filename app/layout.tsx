@@ -1,16 +1,14 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { Playfair_Display, Poppins } from 'next/font/google';
+import { Albert_Sans } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Navigation } from '@/components/navigation';
 import { CartProvider } from '@/components/cart-provider';
 import { Toaster } from '@/components/ui/toaster';
 
-const playfair = Playfair_Display({ subsets: ['latin'] });
-const poppins = Poppins({ 
-  weight: ['300', '400', '500', '600'],
+const albertSans = Albert_Sans({ 
   subsets: ['latin'],
-  variable: '--font-poppins'
+  variable: '--font-albert-sans'
 });
 
 export const metadata: Metadata = {
@@ -25,7 +23,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es" suppressHydrationWarning>
-      <body className={`${playfair.className} ${poppins.variable}`} suppressHydrationWarning>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet" />
+      </head>
+      <body className={`${albertSans.variable}`} suppressHydrationWarning>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false}>
           <CartProvider>
             <Navigation />
