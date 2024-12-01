@@ -5,6 +5,12 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   images: { unoptimized: true },
-};
+  webpack: (config, { dev, isServer }) => {
+    // Disable the webpack cache
+    config.cache = false;
+    
+    return config;
+  },
+}
 
 module.exports = nextConfig;
