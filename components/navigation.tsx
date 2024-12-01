@@ -32,10 +32,10 @@ export function Navigation() {
           </Link>
 
           <div className="hidden md:flex space-x-8">
-            <NavLink href="/menu">Menú</NavLink>
-            <NavLink href="/proceso">Proceso</NavLink>
-            <NavLink href="/nosotros">Nosotros</NavLink>
-            <NavLink href="/contacto">Contacto</NavLink>
+            <NavLink href="#menu">Menú</NavLink>
+            <NavLink href="#proceso">Proceso</NavLink>
+            <NavLink href="#galeria">Galería</NavLink>
+            <NavLink href="#contacto">Contacto</NavLink>
           </div>
 
           <div className="flex items-center space-x-4">
