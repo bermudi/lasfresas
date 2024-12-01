@@ -3,6 +3,7 @@ import { ProductShowcase } from '@/components/product-showcase';
 import { Process } from '@/components/process';
 import { Gallery } from '@/components/gallery';
 import { FloatingCTA } from '@/components/floating-cta';
+import ContactForm from '@/components/ContactForm';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <ProductShowcase />
       <Process />
       <Gallery />
+      <ContactForm />
       <FloatingCTA />
     </main>
   );
