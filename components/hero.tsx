@@ -40,6 +40,7 @@ export function Hero() {
             transition={{ delay: 0.9 }}
           >
             <Button
+              data-order-button
               size="lg"
               className="bg-[#FF4D6D] hover:bg-[#ff3357] text-white font-poppins"
             >

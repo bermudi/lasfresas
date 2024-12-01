@@ -26,6 +26,7 @@ export function FloatingCTA() {
           className="fixed bottom-8 right-8 z-50"
         >
           <Button
+            data-order-button
             size="lg"
             className="bg-[#FF4D6D] hover:bg-[#ff3357] text-white font-poppins shadow-lg"
           >

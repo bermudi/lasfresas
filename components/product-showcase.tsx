@@ -69,7 +69,11 @@ export function ProductShowcase() {
                   <p className="text-gray-600 mb-4 font-poppins">{product.description}</p>
                   <div className="flex justify-between items-center">
                     <span className="text-lg font-bold text-[#FF4D6D]">${product.price}</span>
-                    <Button variant="outline" className="hover:bg-[#FF4D6D] hover:text-white">
+                    <Button 
+                      data-order-button
+                      variant="outline" 
+                      className="hover:bg-[#FF4D6D] hover:text-white"
+                    >
                       Ordenar
                     </Button>
                   </div>
