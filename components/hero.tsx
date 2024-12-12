@@ -22,7 +22,7 @@ export function Hero() {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.5 }}
-            className="text-5xl md:text-7xl font-bold text-white mb-6"
+            className="text-5xl md:text-7xl font-parkinsans font-bold text-white mb-6"
           >
             Las Fresas
           </motion.h1>
@@ -30,7 +30,7 @@ export function Hero() {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.7 }}
-            className="text-xl md:text-2xl text-white mb-8 font-poppins"
+            className="text-2xl md:text-4xl text-white mb-8 font-poppins"
           >
             Fresas con crema premium, hechas con amor
           </motion.p>

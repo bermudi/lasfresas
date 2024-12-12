@@ -1,0 +1,25 @@
+{
+  "name": "Las Fresas - Fresas con Crema Premium",
+  "short_name": "Las Fresas",
+  "description": "Los mejores postres mexicanos de fresas con crema",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#FF4D6D",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/",
+  "lang": "es-MX",
+  "orientation": "any",
+  "categories": ["food", "desserts", "mexican cuisine"]
+}
